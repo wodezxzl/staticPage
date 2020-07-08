@@ -1,0 +1,516 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: '微软雅黑';
+  font-weight: normal;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body header nav {
+  width: 100%;
+  height: 56px;
+}
+body header nav .logo {
+  float: left;
+  margin-left: 60px;
+  margin-top: 12px;
+}
+body header nav .logo img {
+  vertical-align: middle;
+}
+body header nav .logo span {
+  font-size: 20px;
+}
+body header nav .navbar {
+  float: right;
+  margin-right: 40px;
+}
+body header nav .navbar li {
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+body header nav .navbar li a {
+  display: inline-block;
+  width: 80px;
+  height: 56px;
+  line-height: 56px;
+  color: #7f8287;
+}
+body header nav .navbar li a:hover {
+  color: #f06261;
+  border-bottom: 4px solid #e84f51;
+}
+body header nav .navbar li:first-child a {
+  border-bottom: 4px solid #e84f51;
+  color: #f06261;
+}
+body header nav .navbar li:last-child a {
+  color: #f06261;
+}
+body header .image {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  background: url('images/3.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+  z-index: 0;
+}
+body header .image .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 690px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}
+body header .image .info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 118px;
+}
+body header .image .info h2 {
+  font-weight: normal;
+  font-size: 66px;
+}
+body header .image .info p {
+  margin: 15px 0 66px;
+  line-height: 34px;
+  font-size: 23px;
+  color: #e0e0e0;
+}
+body header .image .info button {
+  width: 330px;
+  height: 64px;
+  font-size: 30px;
+  border: none;
+  letter-spacing: 7px;
+  color: #fff;
+  background-color: #e8504f;
+  cursor: pointer;
+}
+body header .list-info {
+  display: flex;
+}
+body header .list-info li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+body header .list-info li span {
+  margin-top: 46px;
+  width: 100%;
+  border-right: 2px solid #7f8287;
+  text-align: center;
+  color: #7f8287;
+}
+body header .list-info li:last-child span {
+  border: none;
+}
+body .section-one .banner {
+  height: 360px;
+  text-align: center;
+  background-color: #eeeced;
+}
+body .section-one .banner img {
+  margin: 90px 0 40px;
+}
+body .section-one .banner p {
+  font-size: 52px;
+  color: #9e9e9e;
+}
+body .section-one .drop-down-menu {
+  position: relative;
+  height: 340px;
+  background: url('images/02.png') no-repeat 0 -2px;
+  background-size: cover;
+  z-index: 0;
+}
+body .section-one .drop-down-menu .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 97, 104, 0.2);
+  z-index: -1;
+}
+body .section-one .drop-down-menu .content {
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+body .section-one .drop-down-menu .content h2 {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 20px;
+}
+body .section-one .drop-down-menu .content .line {
+  margin: 8px auto 18px;
+  height: 2px;
+  width: 20px;
+  background-color: #fff;
+}
+body .section-one .drop-down-menu .content h4 {
+  margin-bottom: 52px;
+  font-size: 14px;
+  font-weight: 400;
+}
+body .section-one .drop-down-menu .content form select,
+body .section-one .drop-down-menu .content form button {
+  margin: 0 28px;
+  width: 234px;
+  height: 36px;
+}
+body .section-one .drop-down-menu .content form button {
+  text-align: center;
+  letter-spacing: 50px;
+  border: none;
+  color: #fff;
+  background-color: #bf4e48;
+}
+body .section-one .activity {
+  position: relative;
+  height: 606px;
+  background: #f7f7f7 url(images/task_1_7_1_02.png) no-repeat 146px 72px;
+}
+body .section-one .activity h4 {
+  font-weight: normal;
+  color: #525252;
+  text-align: center;
+}
+body .section-one .activity h5 {
+  margin-top: 10px;
+  font-weight: normal;
+  color: #bdbdbd;
+  text-align: center;
+}
+body .section-one .activity .width {
+  font-size: 24px;
+  letter-spacing: 18px;
+}
+body .section-one .activity .act-one,
+body .section-one .activity .act-two,
+body .section-one .activity .act-three,
+body .section-one .activity .act-four {
+  position: absolute;
+}
+body .section-one .activity .act-one {
+  top: 420px;
+  left: 370px;
+}
+body .section-one .activity .act-two {
+  top: 60px;
+  left: 544px;
+}
+body .section-one .activity .act-three {
+  top: 420px;
+  left: 880px;
+}
+body .section-one .activity .act-four {
+  top: 420px;
+  left: 1130px;
+}
+body .section-two .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 567px;
+  width: 100%;
+  background: #fff url('images/55_1_02.png') no-repeat 0 0;
+  background-size: 66.6% 100%;
+  text-align: center;
+}
+body .section-two .top .left {
+  margin-left: 294px;
+  color: #fff;
+}
+body .section-two .top .left h3 {
+  font-size: 52px;
+}
+body .section-two .top .left h2 {
+  margin: -44px 0 -10px;
+  font-size: 180px;
+}
+body .section-two .top .left p {
+  font-size: 24px;
+}
+body .section-two .top .right {
+  position: relative;
+  padding-right: 70px;
+  width: 430px;
+  text-align: left;
+  line-height: 30px;
+}
+body .section-two .top .right .delta {
+  position: absolute;
+  top: 120px;
+  right: 507px;
+  width: 0;
+  height: 0;
+  border-right: 24px solid #fff;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+body .section-two .top .right h4 {
+  text-align: center;
+  font-size: 22px;
+}
+body .section-two .top .right h4 i {
+  color: #ea4f4d;
+}
+body .section-two .top .right p {
+  margin: 30px 0 50px;
+  font-size: 12px;
+}
+body .section-two .top .right button {
+  margin-left: 116px;
+  width: 106px;
+  height: 34px;
+  color: #e5666f;
+  border: 2px solid #e5666f;
+  background-color: #fff;
+  cursor: pointer;
+}
+body .section-two .top .right ul {
+  margin: 30px 0 0 140px;
+}
+body .section-two .top .right ul li {
+  float: left;
+  margin: 0 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #8a8a8a;
+  cursor: pointer;
+}
+body .section-two .top .right ul li:first-child {
+  background-color: #8a8a8a;
+}
+body .section-two .top .right ul li:hover {
+  background-color: #8a8a8a;
+}
+body .section-two .bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 522px;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+}
+body .section-two .bottom .more-one {
+  color: #fff;
+  background-color: #e8504f;
+}
+body .section-two .bottom .more-one .hor-line {
+  background-color: #fff;
+}
+body .section-two .bottom .more-one button {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #e8504f;
+}
+body .section-two .bottom .more-two .hor-line {
+  background-color: #a8a8a8;
+}
+body .section-two .bottom .more-two button {
+  border: 1px solid #e8504f;
+  color: #e8504f;
+  background-color: #fff;
+}
+body .section-two .bottom .hor-line {
+  display: block;
+  margin: 24px auto;
+  width: 30px;
+  height: 1px;
+}
+body .section-two .bottom button {
+  font-size: 22px;
+  width: 170px;
+  height: 44px;
+  cursor: pointer;
+}
+body .section-two .bottom article {
+  margin-top: 174px;
+}
+body .section-two .bottom .picture {
+  background: url('images/11.png') no-repeat;
+  background-size: cover;
+}
+body .section-three {
+  overflow: hidden;
+}
+body .section-three header {
+  padding: 118px 0 114px;
+  text-align: center;
+}
+body .section-three header h3 {
+  font-size: 22px;
+  color: #2d2d2d;
+}
+body .section-three header .hor-line {
+  display: block;
+  margin: 8px auto 14px;
+  width: 32px;
+  height: 1px;
+  background-color: #bf4e48;
+}
+body .section-three header p {
+  font-size: 12px;
+  color: #cbcbcb;
+}
+body .section-three article {
+  float: left;
+  margin-left: 138px;
+  text-align: left;
+}
+body .section-three article h4 {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+body .section-three article p {
+  margin-top: 26px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #c1bfc0;
+}
+body .section-three article span {
+  float: right;
+  font-size: 6px;
+  color: #c1bfc0;
+}
+body .section-three article img {
+  float: right;
+  margin: 3px 3px 0 0;
+}
+body .section-three article .center {
+  margin: 30px 0 12px;
+}
+body .section-three article .icon {
+  cursor: pointer;
+}
+body .section-three form {
+  float: right;
+  margin: 0 140px 160px 0;
+  width: 680px;
+}
+body .section-three form input {
+  margin-bottom: 14px;
+  width: 330px;
+  height: 40px;
+  border: none;
+  background-color: #ededef;
+  outline: none;
+}
+body .section-three form input:nth-child(odd) {
+  margin-right: 15px;
+}
+body .section-three form textarea {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 120px;
+  border: none;
+  background-color: #ededef;
+  outline: none;
+  overflow: hidden;
+}
+body .section-three form button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #ededef;
+}
+body .section-three form input::-webkit-input-placeholder {
+  position: relative;
+  left: 20px;
+}
+body .section-three form textarea::-webkit-input-placeholder {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+body footer {
+  background-color: #33363f;
+  overflow: hidden;
+}
+body footer .contact-info {
+  margin: 90px 0 74px;
+  color: #fff;
+  text-align: center;
+}
+body footer .contact-info h4 {
+  font-size: 20px;
+}
+body footer .contact-info p {
+  margin: 10px 0 30px;
+  line-height: 18px;
+  font-size: 10px;
+}
+body footer .contact-info input {
+  width: 432px;
+  height: 42px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+body footer .contact-info button {
+  padding-left: 10px;
+  width: 80px;
+  height: 42px;
+  font-size: 16px;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  border: none;
+  background-color: #717179;
+}
+body footer .contact-info ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+body footer .contact-info ul li {
+  margin-left: 28px;
+}
+body footer .contact-info ul li a {
+  display: inline-block;
+  width: 29px;
+  height: 25px;
+}
+body footer .contact-info ul li .one {
+  background: url('images/12.png') no-repeat;
+}
+body footer .contact-info ul li .two {
+  background: url('images/13.png') no-repeat;
+}
+body footer .contact-info ul li .three {
+  background: url('images/14.png') no-repeat;
+}
+body footer .contact-info ul li .four {
+  background: url('images/15.png') no-repeat;
+}
+body footer .bottom {
+  padding: 28px 98px 0;
+  height: 56px;
+  font-size: 8px;
+  color: #cfcfcf;
+  background-color: #30303a;
+}
+body footer .bottom .left {
+  float: left;
+}
+body footer .bottom .right {
+  float: right;
+}
